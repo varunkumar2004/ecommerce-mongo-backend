@@ -1,7 +1,7 @@
 import express from "express"
 import { createProduct, listProducts, getProduct, updateProduct, deleteProduct } from '../controllers/productController.js'
-// import {protect} from '../middleware/auth.js'
-// import {isAdmin} from '../middleware/role.js'
+import {protect} from '../middleware/auth.js'
+import {isAdmin} from '../middleware/role.js'
 import multer from "multer"
 const upload = multer({ dest: 'uploads/' })
 const router = express.Router()
