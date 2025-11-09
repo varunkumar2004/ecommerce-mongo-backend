@@ -62,5 +62,5 @@ It includes user authentication, product management, cart, order processing, and
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/<your-username>/ecommerce-mongo-backend.git
+git clone https://github.com/varunkumar2004/ecommerce-mongo-backend.git
 cd ecommerce-mongo-backend
